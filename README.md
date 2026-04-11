@@ -257,4 +257,4 @@ This repository reflects a systems-oriented approach to industrial decision supp
 - explainable recommendations
 - product-minded feedback loops
 
-The goal is to show how intelligent operational tools can be designed in a way that is practical, auditable, and extensible.
+The goal is to show how intelligent operational tools can be designed in a way that is practical, auditable, and extensible."# autonomous-operations-intelligence-system" 
