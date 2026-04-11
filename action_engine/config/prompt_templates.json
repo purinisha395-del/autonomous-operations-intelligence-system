@@ -1,0 +1,3 @@
+{
+  "action_memo_prompt": "Generate a structured maintenance action memo using only the provided incident data, risk score, SOP match, and historical repair information. Do not invent actions outside the verified SOP library."
+}

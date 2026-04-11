@@ -1,0 +1,76 @@
+event_id,start_time,end_time,duration_minutes,line,machine,reason_code,reason_text,operator_comment,shift,operator_id,work_order,sku,date
+EVT-1001,5/1/2024 8:15,5/1/2024 8:45,30,Line_3,Palletizer_A,MC-402,Motor Overload,Heard high pitched squealing before trip. Reset twice.,Day,OP-442,WO-9912,SKU-88,5/1/2024
+EVT-1002,5/1/2024 10:30,5/1/2024 10:40,10,Line_3,Filler_02,IN-201,Infeed Starved,Upstream jam on Conveyor 4. Waiting for clear.,Day,OP-442,WO-9915,SKU-88,5/1/2024
+EVT-1003,5/1/2024 14:00,5/1/2024 14:05,5,Line_2,Sealer_05,MC-100,Minor Stop,Film misalignment. Adjusted rollers.,Day,OP-301,NULL,SKU-45,5/1/2024
+EVT-1004,5/1/2024 15:15,5/1/2024 15:20,5,Line_2,Sealer_05,MC-100,Minor Stop,Film drift. Roller 3 loose.,Day,OP-301,NULL,SKU-45,5/1/2024
+EVT-1005,5/1/2024 18:30,5/1/2024 18:45,15,Line_3,Palletizer_A,MC-402,Motor Overload,Reset breaker. Motor housing is hot.,Swing,OP-202,WO-9918,SKU-88,5/1/2024
+EVT-1006,5/1/2024 22:10,5/2/2024 1:30,200,Line_1,Labeler_B,ME-901,Mechanical Failure,Main drive belt snapped. Out of stock.,Night,OP-112,WO-9920,SKU-12,5/1/2024
+EVT-1007,5/2/2024 3:00,5/2/2024 3:15,15,Line_3,Palletizer_A,MC-402,Motor Overload,Tripped again. Operator smells burning.,Night,OP-112,WO-9922,SKU-88,5/2/2024
+EVT-1008,5/2/2024 7:10,5/2/2024 7:15,5,Line_2,Sealer_05,MC-100,Minor Stop,Adjusted film path.,Day,OP-301,NULL,SKU-45,5/2/2024
+EVT-1009,5/2/2024 8:45,5/2/2024 8:50,5,Line_2,Sealer_05,MC-100,Minor Stop,Roller 3 needs constant tightening.,Day,OP-301,NULL,SKU-45,5/2/2024
+EVT-1010,5/2/2024 9:20,5/2/2024 10:00,40,Line_3,Palletizer_A,MC-405,E-Stop,Total shutdown. Smoke coming from motor. Bearing seized.,Day,OP-442,WO-9928,SKU-88,5/2/2024
+EVT-1011,5/2/2024 11:00,5/2/2024 11:15,15,Line_4,Mixer_22,VIB-30,High Vibration,Excessive shaking. Slowed down RPM.,Day,OP-305,WO-9930,SKU-09,5/2/2024
+EVT-1012,5/2/2024 14:30,5/2/2024 14:40,10,Line_3,Filler_02,IN-201,Infeed Starved,Conveyor 4 jammed again.,Day,OP-442,NULL,SKU-88,5/2/2024
+EVT-1013,5/2/2024 19:00,5/2/2024 19:05,5,Line_2,Sealer_05,MC-100,Minor Stop,Drifting film.,Swing,OP-205,NULL,SKU-45,5/2/2024
+EVT-1014,5/3/2024 1:00,5/3/2024 1:20,20,Line_1,Labeler_B,OP-001,Operator Adj,Glue buildup on sensor.,Night,OP-115,NULL,SKU-12,5/3/2024
+EVT-1015,5/3/2024 8:15,5/3/2024 8:20,5,Line_2,Sealer_05,MC-100,Minor Stop,Standard adjust.,Day,OP-301,NULL,SKU-45,5/3/2024
+EVT-1016,5/3/2024 10:45,5/3/2024 11:00,15,Line_3,Conveyor_04,ME-202,Belt Slip,Belt slipping on drive roller.,Day,OP-442,WO-9940,SKU-88,5/3/2024
+EVT-1017,5/3/2024 13:00,5/3/2024 13:05,5,Line_2,Sealer_05,MC-100,Minor Stop,Adjusting film.,Day,OP-301,NULL,SKU-45,5/3/2024
+EVT-1018,5/3/2024 15:30,5/3/2024 15:40,10,Line_3,Filler_02,IN-201,Infeed Starved,Waiting for Conveyor 4.,Day,OP-442,NULL,SKU-88,5/3/2024
+EVT-1019,5/3/2024 21:00,5/3/2024 21:15,15,Line_4,Mixer_22,VIB-30,High Vibration,Getting worse. Noise from gearbox.,Swing,OP-205,WO-9942,SKU-09,5/3/2024
+EVT-1020,5/4/2024 2:00,5/4/2024 6:00,240,Line_4,Mixer_22,ME-500,Bearing Seizure,Total gearbox failure. Oil leak found.,Night,OP-115,WO-9945,SKU-09,5/4/2024
+EVT-1021,5/4/2024 8:00,5/4/2024 8:05,5,Line_2,Sealer_05,MC-100,Minor Stop,Film drift on SKU-45. Roller 3.,Day,OP-301,NULL,SKU-45,5/4/2024
+EVT-1022,5/4/2024 9:30,5/4/2024 9:35,5,Line_2,Sealer_05,MC-100,Minor Stop,Adjusting film.,Day,OP-301,NULL,SKU-45,5/4/2024
+EVT-1023,5/4/2024 11:00,5/4/2024 11:05,5,Line_2,Sealer_05,MC-100,Minor Stop,Tightened Roller 3 bolt again.,Day,OP-301,NULL,SKU-45,5/4/2024
+EVT-1024,5/4/2024 14:00,5/4/2024 14:15,15,Line_3,Conveyor_04,ME-202,Belt Slip,Conveyor 4 slipping. Filler 2 starving.,Day,OP-442,WO-9950,SKU-88,5/4/2024
+EVT-1025,5/4/2024 14:20,5/4/2024 14:30,10,Line_3,Filler_02,IN-201,Infeed Starved,Line 3 down due to Conveyor 4.,Day,OP-442,NULL,SKU-88,5/4/2024
+EVT-1026,5/5/2024 1:00,5/5/2024 1:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Glue sensor wipe down.,Night,OP-115,NULL,SKU-12,5/5/2024
+EVT-1027,5/5/2024 8:15,5/5/2024 8:20,5,Line_2,Sealer_05,MC-100,Minor Stop,SKU-45 film drift.,Day,OP-301,NULL,SKU-45,5/5/2024
+EVT-1028,5/5/2024 9:30,5/5/2024 9:35,5,Line_2,Sealer_05,MC-100,Minor Stop,Resetting film path.,Day,OP-301,NULL,SKU-45,5/5/2024
+EVT-1029,5/5/2024 10:45,5/5/2024 10:50,5,Line_2,Sealer_05,MC-100,Minor Stop,Roller 3 looseness continues.,Day,OP-301,NULL,SKU-45,5/5/2024
+EVT-1030,5/5/2024 14:00,5/5/2024 14:15,15,Line_3,Conveyor_04,ME-202,Belt Slip,High load causing slip.,Day,OP-442,WO-9955,SKU-88,5/5/2024
+EVT-1031,5/5/2024 14:20,5/5/2024 14:30,10,Line_3,Filler_02,IN-201,Infeed Starved,Starvation on filler.,Day,OP-442,NULL,SKU-88,5/5/2024
+EVT-1032,5/6/2024 2:00,5/6/2024 2:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Cleaning sensor.,Night,OP-115,NULL,SKU-12,5/6/2024
+EVT-1033,5/6/2024 8:00,5/6/2024 8:05,5,Line_2,Sealer_05,MC-100,Minor Stop,Standard SKU-45 drift.,Day,OP-301,NULL,SKU-45,5/6/2024
+EVT-1034,5/6/2024 10:00,5/6/2024 10:05,5,Line_2,Sealer_05,MC-100,Minor Stop,Adjusting film.,Day,OP-301,NULL,SKU-45,5/6/2024
+EVT-1035,5/6/2024 14:00,5/6/2024 14:15,15,Line_3,Conveyor_04,ME-202,Belt Slip,Belt needs replacement.,Day,OP-442,WO-9960,SKU-88,5/6/2024
+EVT-1036,5/6/2024 14:20,5/6/2024 14:30,10,Line_3,Filler_02,IN-201,Infeed Starved,Upstream delay.,Day,OP-442,NULL,SKU-88,5/6/2024
+EVT-1037,5/7/2024 1:00,5/7/2024 1:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Glue sensor wipe.,Night,OP-115,NULL,SKU-12,5/7/2024
+EVT-1038,5/7/2024 8:15,5/7/2024 8:20,5,Line_2,Sealer_05,MC-100,Minor Stop,Film drift SKU-45.,Day,OP-301,NULL,SKU-45,5/7/2024
+EVT-1039,5/7/2024 10:00,5/7/2024 10:05,5,Line_2,Sealer_05,MC-100,Minor Stop,Resetting film.,Day,OP-301,NULL,SKU-45,5/7/2024
+EVT-1040,5/7/2024 11:30,5/7/2024 11:35,5,Line_2,Sealer_05,MC-100,Minor Stop,Roller 3 adjustment.,Day,OP-301,NULL,SKU-45,5/7/2024
+EVT-1041,5/7/2024 14:00,5/7/2024 14:15,15,Line_3,Conveyor_04,ME-202,Belt Slip,Frequent slipping.,Day,OP-442,WO-9965,SKU-88,5/7/2024
+EVT-1042,5/7/2024 14:20,5/7/2024 14:30,10,Line_3,Filler_02,IN-201,Infeed Starved,Starvation.,Day,OP-442,NULL,SKU-88,5/7/2024
+EVT-1043,5/8/2024 2:00,5/8/2024 2:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Wiping sensor.,Night,OP-115,NULL,SKU-12,5/8/2024
+EVT-1044,5/8/2024 8:00,5/8/2024 8:05,5,Line_2,Sealer_05,MC-100,Minor Stop,SKU-45 drift.,Day,OP-301,NULL,SKU-45,5/8/2024
+EVT-1045,5/8/2024 9:30,5/8/2024 9:35,5,Line_2,Sealer_05,MC-100,Minor Stop,Adjusting rollers.,Day,OP-301,NULL,SKU-45,5/8/2024
+EVT-1046,5/8/2024 14:00,5/8/2024 15:00,60,Line_3,Conveyor_04,ME-202,Belt Snap,Belt finally broke. Replacing now.,Day,OP-442,WO-9970,SKU-88,5/8/2024
+EVT-1047,5/8/2024 14:10,5/8/2024 15:00,50,Line_3,Filler_02,IN-201,Infeed Starved,Down for Conveyor 4 repair.,Day,OP-442,NULL,SKU-88,5/8/2024
+EVT-1048,5/9/2024 1:00,5/9/2024 1:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Cleaning glue.,Night,OP-115,NULL,SKU-12,5/9/2024
+EVT-1049,5/9/2024 8:15,5/9/2024 8:20,5,Line_2,Sealer_05,MC-100,Minor Stop,SKU-45 drift.,Day,OP-301,NULL,SKU-45,5/9/2024
+EVT-1050,5/9/2024 10:00,5/9/2024 10:05,5,Line_2,Sealer_05,MC-100,Minor Stop,Adjusting film.,Day,OP-301,NULL,SKU-45,5/9/2024
+EVT-1051,5/9/2024 11:30,5/9/2024 11:35,5,Line_2,Sealer_05,MC-100,Minor Stop,Tightening bolt.,Day,OP-301,NULL,SKU-45,5/9/2024
+EVT-1052,5/10/2024 2:00,5/10/2024 2:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Cleaning sensor.,Night,OP-115,NULL,SKU-12,5/10/2024
+EVT-1053,5/10/2024 8:00,5/10/2024 8:05,5,Line_2,Sealer_05,MC-100,Minor Stop,SKU-45 drift.,Day,OP-301,NULL,SKU-45,5/10/2024
+EVT-1054,5/10/2024 9:30,5/10/2024 9:35,5,Line_2,Sealer_05,MC-100,Minor Stop,Film alignment.,Day,OP-301,NULL,SKU-45,5/10/2024
+EVT-1055,5/11/2024 1:00,5/11/2024 1:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Wipe down glue.,Night,OP-115,NULL,SKU-12,5/11/2024
+EVT-1056,5/11/2024 8:15,5/11/2024 8:20,5,Line_2,Sealer_05,MC-100,Minor Stop,Standard drift.,Day,OP-301,NULL,SKU-45,5/11/2024
+EVT-1057,5/12/2024 2:00,5/12/2024 2:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Cleaning sensor.,Night,OP-115,NULL,SKU-12,5/12/2024
+EVT-1058,5/12/2024 8:00,5/12/2024 8:05,5,Line_2,Sealer_05,MC-100,Minor Stop,SKU-45 drift.,Day,OP-301,NULL,SKU-45,5/12/2024
+EVT-1059,5/13/2024 1:00,5/13/2024 1:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Wipe down glue.,Night,OP-115,NULL,SKU-12,5/13/2024
+EVT-1060,5/13/2024 8:15,5/13/2024 8:20,5,Line_2,Sealer_05,MC-100,Minor Stop,Standard drift.,Day,OP-301,NULL,SKU-45,5/13/2024
+EVT-1061,5/14/2024 2:00,5/14/2024 2:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Cleaning sensor.,Night,OP-115,NULL,SKU-12,5/14/2024
+EVT-1062,5/14/2024 8:00,5/14/2024 8:05,5,Line_2,Sealer_05,MC-100,Minor Stop,SKU-45 drift.,Day,OP-301,NULL,SKU-45,5/14/2024
+EVT-1063,5/15/2024 1:00,5/15/2024 1:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Wipe down glue.,Night,OP-115,NULL,SKU-12,5/15/2024
+EVT-1064,5/15/2024 8:15,5/15/2024 8:20,5,Line_2,Sealer_05,MC-100,Minor Stop,Standard drift.,Day,OP-301,NULL,SKU-45,5/15/2024
+EVT-1065,5/16/2024 2:00,5/16/2024 2:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Cleaning sensor.,Night,OP-115,NULL,SKU-12,5/16/2024
+EVT-1066,5/16/2024 8:00,5/16/2024 8:05,5,Line_2,Sealer_05,MC-100,Minor Stop,SKU-45 drift.,Day,OP-301,NULL,SKU-45,5/16/2024
+EVT-1067,5/17/2024 1:00,5/17/2024 1:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Wipe down glue.,Night,OP-115,NULL,SKU-12,5/17/2024
+EVT-1068,5/17/2024 8:15,5/17/2024 8:20,5,Line_2,Sealer_05,MC-100,Minor Stop,Standard drift.,Day,OP-301,NULL,SKU-45,5/17/2024
+EVT-1069,5/18/2024 2:00,5/18/2024 2:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Cleaning sensor.,Night,OP-115,NULL,SKU-12,5/18/2024
+EVT-1070,5/18/2024 8:00,5/18/2024 8:05,5,Line_2,Sealer_05,MC-100,Minor Stop,SKU-45 drift.,Day,OP-301,NULL,SKU-45,5/18/2024
+EVT-1071,5/19/2024 1:00,5/19/2024 1:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Wipe down glue.,Night,OP-115,NULL,SKU-12,5/19/2024
+EVT-1072,5/19/2024 8:15,5/19/2024 8:20,5,Line_2,Sealer_05,MC-100,Minor Stop,Standard drift.,Day,OP-301,NULL,SKU-45,5/19/2024
+EVT-1073,5/20/2024 2:00,5/20/2024 2:15,15,Line_1,Labeler_B,OP-001,Operator Adj,Cleaning sensor.,Night,OP-115,NULL,SKU-12,5/20/2024
+EVT-1074,5/20/2024 8:00,5/20/2024 8:05,5,Line_2,Sealer_05,MC-100,Minor Stop,SKU-45 drift.,Day,OP-301,NULL,SKU-45,5/20/2024
+EVT-1075,5/20/2024 9:30,5/20/2024 9:35,5,Line_2,Sealer_05,MC-100,Minor Stop,Adjusting film.,Day,OP-301,NULL,SKU-45,5/20/2024

@@ -1,0 +1,38 @@
+[
+  {
+    "incident_id": "INC-1001",
+    "machine_id": "FILLER-07",
+    "summary": "Repeated filler stoppage during second shift",
+    "risk_score": 0.87,
+    "likely_cause": "Sensor misalignment",
+    "recommended_action": "Inspect sensor bracket and recalibrate alignment using SOP-014",
+    "required_parts": ["Alignment gauge", "Spare sensor bracket"],
+    "estimated_time_to_fix_minutes": 30,
+    "confidence": 0.82,
+    "evidence": "Matched SOP-014 and 4 similar incidents in past 30 days"
+  },
+  {
+    "incident_id": "INC-1002",
+    "machine_id": "CAPPER-03",
+    "summary": "Intermittent cap feed jam during startup",
+    "risk_score": 0.61,
+    "likely_cause": "Cap chute obstruction",
+    "recommended_action": "Inspect cap chute and clear blockage using SOP-021",
+    "required_parts": ["Inspection flashlight", "Basic hand tools"],
+    "estimated_time_to_fix_minutes": 20,
+    "confidence": 0.64,
+    "evidence": "Matched SOP-021 and 2 similar startup jams this month"
+  },
+  {
+    "incident_id": "INC-1003",
+    "machine_id": "LABELER-02",
+    "summary": "Unexpected label skip pattern with no strong historical match",
+    "risk_score": 0.74,
+    "likely_cause": "Unknown anomaly",
+    "recommended_action": "Escalate to maintenance lead for further inspection",
+    "required_parts": ["Diagnostic checklist"],
+    "estimated_time_to_fix_minutes": 45,
+    "confidence": 0.41,
+    "evidence": "Pattern does not strongly match known SOPs"
+  }
+]

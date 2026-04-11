@@ -1,0 +1,10 @@
+reason_code,reason_text,category,impact_type,agent_logic_rule
+IN-201,Infeed Starved,Symptom,Downstream,Check upstream_machine status immediately.
+MC-402,Motor Overload,Warning,Mechanical,Scan operator_comment for heat smell noise or repeated reset language.
+MC-100,Minor Stop,Nuisance,Operational,Flag if frequency > 5 per shift or repeated on same machine and SKU.
+ME-202,Belt Slip,Source,Maintenance,Check for repeated downstream starvation and escalate if recurring.
+OP-001,Operator Adj,Workaround,Behavioral,Compare recurrence across shifts and check if it masks chronic equipment issue.
+ME-901,Mechanical Failure,Source,Maintenance,Escalate immediately if duration is high or spare parts unavailable.
+MC-405,E-Stop,Symptom,Safety,Escalate immediately and scan comments for smoke burning smell or unsafe condition.
+VIB-30,Warning Vibration,Warning,Mechanical,Check for later severe failure on same asset within 1 to 3 days.
+ME-500,Bearing Seizure,Source,Maintenance,Classify as severe mechanical failure and link prior warnings if present.

@@ -1,0 +1,13 @@
+incident_id,machine_id,timestamp,reason,duration_minutes,shift,operator,repeat_count,past_week_count,impact_score
+1,M1,1/1/2026 8:00,Label Jam,15,A,John,3,5,7
+2,M2,1/1/2026 9:30,Low Pressure,25,B,Ana,1,2,6
+3,M1,1/2/2026 11:00,Label Jam,20,A,John,4,6,8
+4,M3,1/2/2026 14:00,Sensor Fault,10,C,Mike,2,3,5
+5,M2,1/3/2026 7:45,Low Pressure,30,A,Ana,2,4,7
+6,M4,1/3/2026 12:15,Conveyor Slip,18,B,Leo,3,3,6
+7,M1,1/4/2026 10:10,Label Jam,22,C,John,5,7,8
+8,M5,1/4/2026 15:20,Overheat Alarm,40,B,Sara,2,2,9
+9,M3,1/5/2026 8:50,Sensor Fault,12,A,Mike,3,4,5
+10,M4,1/5/2026 13:40,Conveyor Slip,16,C,Leo,4,5,6
+11,M2,1/6/2026 9:00,Low Pressure,28,A,Ana,3,5,7
+12,M5,1/6/2026 14:30,Overheat Alarm,35,C,Sara,3,4,9

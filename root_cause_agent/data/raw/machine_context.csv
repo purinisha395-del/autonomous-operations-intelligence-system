@@ -1,0 +1,7 @@
+line,machine,upstream_machine,downstream_machine,criticality,process_step
+Line_3,Conveyor_04,NULL,Filler_02,High,Material Transport
+Line_3,Filler_02,Conveyor_04,Palletizer_A,High,Filling
+Line_3,Palletizer_A,Filler_02,NULL,High,Packaging
+Line_2,Sealer_05,NULL,NULL,Medium,Sealing
+Line_4,Mixer_22,NULL,NULL,High,Mixing
+Line_1,Labeler_B,NULL,NULL,Medium,Labeling
