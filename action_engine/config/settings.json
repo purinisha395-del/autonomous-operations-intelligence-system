@@ -1,0 +1,16 @@
+{
+  "reasoning": {
+    "act_threshold": 0.8,
+    "inspect_threshold": 0.5,
+    "max_actions_returned": 3,
+    "allow_only_verified_sops": true,
+    "default_escalation_target": "Maintenance Lead"
+  },
+  "feedback": {
+    "allowed_feedback_types": [
+      "helpful",
+      "not_helpful",
+      "partially_helpful"
+    ]
+  }
+}
