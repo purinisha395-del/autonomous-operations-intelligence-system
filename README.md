@@ -8,7 +8,7 @@ This project simulates how operational teams diagnose downtime, prioritize risk,
 
 This project explores how AI-assisted operational intelligence systems can support root-cause analysis, risk prioritization, and escalation workflows in complex manufacturing environments.
 
-The architecture, operational logic, and evaluation design were developed by me based on real-world operational systems experience. Implementation was accelerated using ChatGPT as an engineering assistant.
+The architecture, operational logic, and evaluation design were developed by me based on real-world operational systems experience. Architecture, operational logic, and evaluation design developed from direct manufacturing systems experience. Built with AI-assisted development tooling.
 
 All datasets are synthetic and do not contain proprietary operational information.
 
